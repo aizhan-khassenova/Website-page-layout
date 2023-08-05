@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Couture-bld';
+    src: url('../fonts/couture-bld.otf') format('truetype');
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    width: 1010px;
+    margin: 0 auto;
+}

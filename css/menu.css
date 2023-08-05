@@ -1,0 +1,64 @@
+.menu {
+    height: 688px;
+}
+.background__image {
+    background-image: url("../img/Layer\ 13.png");
+    background-size: cover;
+    height: 688px;
+}
+.menu__inner {
+    margin-top: 38px;
+    height: 94px;
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+}
+.menu__title {
+    height: 668px;
+    width: 1010px;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 90px;
+}
+.menu__title span {
+    color: rgb(255, 255, 255);
+}
+.menu__text {
+    padding-bottom: 156px;
+    font-size: 20px;
+    height: 668px;
+    font-family: 'PT Serif', serif;
+    color: rgb(255, 255, 255); 
+    width: 505px;
+    display: flex;
+    align-items: flex-end;
+}
+.nav {
+    display: flex;
+    list-style: none;
+}
+.nav li a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+.nav li a:hover {
+    background-color: rgb(19, 14, 39);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}

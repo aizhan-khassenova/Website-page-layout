@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Couture-bld';
+    src: url('../fonts/couture-bld.otf') format('truetype');
+}
+.service {
+    background: #ffffff;
+}
+.service__inner {
+    height: 483px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.service__title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Couture-bld';
+    font-weight: bold; 
+    color: rgb(198, 35, 20);
+}
+.services {
+    color: rgb(22, 22, 22);
+}
+.service__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service__item {
+    height: 247px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.service__item__text {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    color: rgb(22, 22, 22); 
+    width: 202px;
+}
+i.fa {
+    font-size: 150px;
+    color: #130e27;
+}
